@@ -57,13 +57,13 @@ function App() {
       <div className='buttons'>
         {/* This part is weird */}
         {/* On click, you should set the traffic in state to be a copy of the same array that's already in state, but immutably add a 'car' to the end */}
-        <button onClick={() => setTraffic('car')}>Car</button>
+        <button onClick={() => setTraffic(['car'])}>Car</button>
         {/* On click, you should set the traffic in state to be a copy of the same array that's already in state, but immutably add a 'bus' to the end */}
-        <button onClick={() => setTraffic('bus')}>Bus</button>
+        <button onClick={() => setTraffic(['bus'])}>Bus</button>
         {/* On click, you should set the traffic in state to be a copy of the same array that's already in state, but immutably add a 'truck' to the end */}
-        <button onClick={() => setTraffic('truck')}>Truck</button>
+        <button onClick={() => setTraffic(['truck'])}>Truck</button>
         {/* On click, you should set the traffic in state to be a copy of the same array that's already in state, but immutably add a 'motorcycle' to the end */}
-        <button onClick={() => setTraffic('truck')}>Motorcycle</button>
+        <button onClick={() => setTraffic(['motorcycle'])}>Motorcycle</button>
       </div>
 
     </div>
