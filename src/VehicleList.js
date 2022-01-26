@@ -4,7 +4,7 @@ import Vehicle from './Vehicle';
 export default function VehicleList(props) {
   return (
     <div className="traffic">
-      {props.carsArray.map((vehicle, i) => 
+      {props.vehicles.map((vehicle, i) => 
         <Vehicle key ={vehicle + i} vehicle=
           {vehicle} />
       )}
